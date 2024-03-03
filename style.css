@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    position: relative;
+    background-image: url(/img/IN-en-20240226-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 700px;
+
+}
+
+.main .box {
+    height: 700px;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 75vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    color: red;
+    position: relative;
+    z-index: 10;
+    width: 130px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: "Martel Sans", sans-serif;
+    height: calc(75%-100px);
+    color: white;
+    position: relative;
+    gap: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 200px 30px;
+}
+
+.hero> :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.hrline {
+    height: 10px;
+    background: rgb(38, 38, 38);
+    position: relative;
+    z-index: 20;
+}
+
+.transsign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    height: 30px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.btn {
+    cursor: pointer;
+    width: 120px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.red-sm {
+    cursor: pointer;
+    width: 70px;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: 500;
+    padding: 6px 10px;
+    border-radius: 3px;
+}
+
+.red-btn {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.main input {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: transparent;
+    border: 1px solid rgb(120, 119, 119);
+    height: 35px;
+    width: 350px;
+    padding: 7px 20px;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+
+@media screen and (max-width:1300px) {
+    .first {
+        flex-wrap: wrap;
+
+    }
+
+}
+
+
+.secimg {
+    position: relative;
+}
+
+section.first .secimg img {
+    width: 400px;
+    position: relative;
+    z-index: 10;
+    width: 500px;
+}
+
+section.first .secimg video {
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    width: 400px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+    /* font-weight: bolder; */
+}
+
+section.third .secimg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+    width: 500px;
+}
+
+section.third .secimg video {
+    position: absolute;
+    width: 320px;
+    top: 60px;
+    left: 90px;
+
+}
+
+@media screen and (max-width:1300px) {
+    .third {
+        flex-wrap: wrap;
+
+    }
+
+}
+
+.faq {
+    padding: 34px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    background: black;
+    color: white;
+}
+
+.faqbox {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    height: 2vh;
+    background-color: rgb(40, 40, 40);
+    padding: 34px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.faq svg {
+    filter: invert(1);
+}
+
+.faq h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.faqbox:hover {
+    background-color: rgb(57, 57, 57);
+
+}
+
+.last {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.last input {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: transparent;
+    border: 1px solid rgb(120, 119, 119);
+    height: 35px;
+    width: 350px;
+    padding: 7px 20px;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.foot {
+    /* margin-bottom: 100px; */
+    /* margin: 20px 50px; */
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    color: rgb(190, 190, 190);
+    font-weight: 500;
+
+}
+
+.lasthead {
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+    gap: 20px;
+}
+
+.grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+    gap: 10px;
+
+}
+
+.foot a {
+    color: rgb(190, 190, 190);
+}
+
+.final {
+    text-decoration: none;
+    margin-left: 120px;
+    padding: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 150px;
+}
+
+.btn svg {
+    filter: invert(1);
+
+}
